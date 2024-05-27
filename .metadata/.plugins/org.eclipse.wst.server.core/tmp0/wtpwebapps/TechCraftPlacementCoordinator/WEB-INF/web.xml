@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>PlacementLogin</display-name>
+    <servlet-name>PlacementLogin</servlet-name>
+    <servlet-class>techcraft.placement.controller.PlacementLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PlacementLogin</servlet-name>
+    <url-pattern>/PlacementLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PlacementLogout</display-name>
+    <servlet-name>PlacementLogout</servlet-name>
+    <servlet-class>techcraft.placement.controller.PlacementLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PlacementLogout</servlet-name>
+    <url-pattern>/PlacementLogout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PlacementForgotPassword</display-name>
+    <servlet-name>PlacementForgotPassword</servlet-name>
+    <servlet-class>techcraft.placement.controller.PlacementForgotPassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PlacementForgotPassword</servlet-name>
+    <url-pattern>/PlacementForgotPassword</url-pattern>
+  </servlet-mapping>
+</web-app>

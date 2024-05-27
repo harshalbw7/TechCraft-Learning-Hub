@@ -1,0 +1,505 @@
+@charset "ISO-8859-1"; 
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    align-items: center;
+    background-color: #002233;
+}
+
+.progress-bar {
+		    width: 20px;
+		    height: 20px;
+		    margin-right: 20px; 
+		    margin-left: 20px;
+		    border-radius: 50%;
+		    border: 4px solid black;
+		    border-top-color: #ffa200;
+		    animation: spin 1s linear infinite;
+		}
+		 
+		.hidden {
+		    display: none;
+		}
+		
+		@keyframes spin {
+		    0% { transform: rotate(0deg); }
+		    100% { transform: rotate(360deg); }
+		}
+
+header {
+    background-color: #002233;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #ffa200;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.vl {
+    border-left: 6px solid #ffa200;
+    height: 30px;
+    margin-left: 40px;
+}
+
+.heading {
+    display: flex;
+    gap: 70px;
+    margin-left: 70px;
+}
+
+.heading a {
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #002233;
+    cursor: pointer;
+}
+
+.heading a:hover {
+    color: #ffa200;
+    text-decoration: none;
+    background-color: #002233;
+}
+
+header span {
+    color: #ffa200;
+    letter-spacing: 1px; 
+    margin-right: 90px;
+    font-weight: bold;
+    animation: zoomInOut 0.5s infinite alternate;
+}
+
+.userName {
+	color: #ffa200;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.dropdown-icon {
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+	transform: rotate(90deg);
+}
+
+.popup {
+	position: relative;
+	display: inline-block;
+}
+
+.popup-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f7f7f7;
+    margin-right: 40px;
+    border: 2px solid #000;
+    border-radius: 10px; 
+    padding: 10px 25px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    top: 100%;  
+    left: 0;
+    }
+
+    .popup:hover .popup-content {
+        display: block;
+    }
+    
+    .popup-content a {
+		text-decoration: none;
+		color: #002233; 
+		font-weight: bold;
+        font-size: 15px;
+	}
+	
+	.popup-content a:hover {
+		color: #ffa200;
+	}
+
+.main {
+    display: flex;
+    width: auto;
+    height: 550px;
+    background-size: cover; 
+    border: 3px solid #000;
+    border-radius: 20px; 
+    background-image: url("./media/techback.jpg");
+    margin: 0px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about { 
+    border-radius: 20px; 
+    max-width: 1000px;
+    margin: 30px; 
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5em; 
+    font-weight: bold;
+    color: #00bfff;
+    padding-left: 20px;
+    animation: zoomHeading 0.5s infinite alternate;
+}
+
+@keyframes zoomHeading {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.02);
+    }
+}
+
+.about p {
+    font-size: 15px;
+    letter-spacing: 1px; 
+    color: rgb(51, 45, 38);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.moto {
+    background-color: #00bfff;
+    padding: 20px;
+    box-shadow: 5px solid #000;
+    border-radius: 20px;
+}
+
+.about button {
+    color: #002233;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffa200;
+    letter-spacing: 1px;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 15px;
+    font-size: large;
+    animation: zoomInOut 0.5s infinite alternate;
+}
+
+.about button:hover {
+	background-color: #ff9900;
+	border-radius: 15px;
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.main img {
+    max-width: 600px;
+    height: 600px;
+    margin-top: 10px;
+    animation: zoomHeading 0.5s infinite alternate;
+}
+
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99; 
+  border: none;
+  outline: none;
+  background-color: #00bfff;
+  color: white;
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 10%;
+}
+
+#scrollBtn:hover {
+  background-color: #ff9900;
+}
+
+.go-top {
+	width: 20px;
+	height: 20px; 
+	transform: rotate(270deg);
+}
+
+
+.features {
+	display: flex;
+	background-image: url("./media/techback.jpg");
+    margin: 20px 20px;
+    border-radius: 20px; 
+    border: 3px solid #000;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.features img {
+    max-width: 500px;
+    height: 500px; 
+    margin: 0px 20px;
+    animation: zoomHeading 0.5s infinite alternate;
+}
+
+.features h1 {
+	animation: zoomHeading 0.5s infinite alternate;
+	letter-spacing: 1px;
+}
+
+.feature {
+	background-color:#00bfff; 
+    border-radius: 20px;
+    padding: 20px; 
+    max-width: 800px;
+    letter-spacing: 1px;
+}
+
+.feature h4 {
+	color: white;
+}
+ 
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+
+.site-content {
+	display: flex;
+	background-image: url("./media/techback.jpg");
+	background-size: cover; 
+	text-align: center;
+	margin: 5% auto;
+    padding: 10px;
+    max-width: 1200px;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 15px;
+    top: 40%;
+    transform: translateY(-50%);
+    letter-spacing: 1px;
+}
+
+.site-content p {
+	color: black;
+	font-weight: bold;
+}
+
+.site-content img {
+	max-width: 500px;
+    height: 500px;
+    margin: 10px;
+    animation: zoomHeading 0.5s infinite alternate;
+}
+
+.sub-about {
+	color: white; 
+	background-color: #00bfff;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+ 
+.modal-content {
+    background-image: url("./media/techback.jpg");
+    align-items: center;
+    justify-content: center; 
+    margin: 10px; 
+    margin-left: 0px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;   
+    border: 2px solid #000;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #000; 
+    letter-spacing: 1px;
+}
+
+.modal-content input[type="button"] {
+    background-color: #ffa200;
+    font-weight: bold;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    animation: zoomHeading 0.5s infinite alternate;
+}
+
+.modal-content input[type="button"] {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content input[type="submit"]:hover {
+    background-color: #ff9900;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 15px; 
+    right: 20px; 
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+.userName:hover + #logoutModal {
+    display: block;
+}
+
+.register {
+    text-align: center;
+}
+
+hr {
+    color: black; 
+    border-top: 2px solid black; 
+    margin-top: 20px;
+}
+
+.clickLogin {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #0099e6;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.socialMedia img {
+    width: 10%;
+    height: 10%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.pre-footer {
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	width: 100%;
+}
+
+.pre-footer button {
+	color: #002233;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffa200;
+    letter-spacing: 1px;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    margin-left: 40px;
+    border-radius: 15px;
+    font-size: large;
+    animation: zoomInOut 0.5s infinite alternate;
+}
+
+.footer-content h4{
+	font-weight: bold;
+	padding-bottom: 20px;
+	border-bottom: solid 2px #fff;
+}
+		
+.footer-content div{  
+	font-size: 13px; 
+	max-width: 400px;
+	text-align: left;
+	color: white;
+}
+		
+.footer-content a{  
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+		
+.footer-content a:hover{  
+	color: #ffa200; 
+}
+		
+.footer-social-media img{   
+	color: white;
+	width: 30px;
+	height: 30px; 
+	padding: 5px; 
+	cursor: pointer; 
+	border: solid 2px #002233;
+}
+		
+.footer-social-media img:hover{   
+	border: solid 2px #ffa200;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+ 

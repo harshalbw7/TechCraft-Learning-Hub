@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+D:\NOTES\sem 4\miniProject\TechCraft Learning Hub\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2271428373.index
+2061074779.index
+1396493417.index
+3853483808.index
+1515321799.index
+4222809342.index
+1974482991.index
+657762699.index
+3300835021.index

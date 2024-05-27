@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>AdminLogin</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>techcraft.admin.controller.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminLogout</display-name>
+    <servlet-name>AdminLogout</servlet-name>
+    <servlet-class>techcraft.admin.controller.AdminLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogout</servlet-name>
+    <url-pattern>/AdminLogout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminForgotPssword</display-name>
+    <servlet-name>AdminForgotPssword</servlet-name>
+    <servlet-class>techcraft.admin.controller.AdminForgotPssword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminForgotPssword</servlet-name>
+    <url-pattern>/AdminForgotPssword</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddStudent</display-name>
+    <servlet-name>AddStudent</servlet-name>
+    <servlet-class>techcraft.admin.controller.AddStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddStudent</servlet-name>
+    <url-pattern>/AddStudent</url-pattern>
+  </servlet-mapping>
+</web-app>

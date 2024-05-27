@@ -1,0 +1,14 @@
+127.0.0.1 - - [23/May/2024:14:20:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/ HTTP/1.1" 200 9613
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/placementIndex.css HTTP/1.1" 200 8685
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/sweetalert2.min.css HTTP/1.1" 404 804
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/sweetalert2.min.js HTTP/1.1" 404 803
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/email.png HTTP/1.1" 200 6136
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/software-engineer.svg HTTP/1.1" 200 7987
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/play.png HTTP/1.1" 200 7837
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/lock.png HTTP/1.1" 200 9212
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/success.svg HTTP/1.1" 200 6877
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/code-simple.png HTTP/1.1" 200 16512
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/user.png HTTP/1.1" 200 8678
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /TechCraftPlacementCoordinator/media/techback.jpg HTTP/1.1" 200 41299
+0:0:0:0:0:0:0:1 - - [23/May/2024:14:20:47 +0530] "GET /favicon.ico HTTP/1.1" 404 762

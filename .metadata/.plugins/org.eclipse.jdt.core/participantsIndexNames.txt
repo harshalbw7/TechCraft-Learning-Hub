@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+D:\NOTES\sem 4\miniProject\TechCraft Learning Hub\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2870405048.index
+\TechCraftAdmin\src\main\resources
+D:\NOTES\sem 4\miniProject\TechCraft Learning Hub\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3119411891.index
+\TechCraft\src\main\resources
+D:\NOTES\sem 4\miniProject\TechCraft Learning Hub\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1267551757.index
+\TechCraftPlacementCoordinator\src\main\java
+D:\NOTES\sem 4\miniProject\TechCraft Learning Hub\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1865603798.index
+\TechCraftTeacher\src\main\resources

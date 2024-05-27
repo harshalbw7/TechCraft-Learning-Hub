@@ -1,0 +1,16 @@
+content_assist_autoactivation_triggers_java=.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.GenerationType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javax.persistence.GenerationType"/></lhs><lhs name\="techcraft.model.Student"><rhs name\="techcraft.model.Student"/></lhs><lhs name\="java.util.Date"><rhs name\="java.sql.Date"/><rhs name\="java.util.Date"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.sql.Date"/><rhs name\="java.util.Date"/></lhs><lhs name\="java.sql.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="techcraft.teacher.model.Teacher"><rhs name\="techcraft.teacher.model.Teacher"/></lhs><lhs name\="techcraft.placement.model.PlacementCoordinator"><rhs name\="techcraft.placement.model.PlacementCoordinator"/></lhs><lhs name\="techcraft.model.SessionLogs"><rhs name\="techcraft.model.SessionLogs"/></lhs><lhs name\="techcraft.dao.StudentDao"><rhs name\="techcraft.dao.StudentDao"/></lhs><lhs name\="techcraft.teacher.model.Coding"><rhs name\="techcraft.teacher.model.Coding"/></lhs><lhs name\="techcraft.model.SubtopicDescription"><rhs name\="techcraft.model.SubtopicDescription"/></lhs><lhs name\="techcraft.model.Feedback"><rhs name\="techcraft.model.Feedback"/></lhs><lhs name\="techcraft.model.CoadingProgress"><rhs name\="techcraft.model.CoadingProgress"/></lhs><lhs name\="techcraft.dao.VideoDao"><rhs name\="techcraft.dao.VideoDao"/></lhs><lhs name\="techcraft.model.Videos"><rhs name\="techcraft.model.Videos"/></lhs><lhs name\="techcraft.model.VideoProgress"><rhs name\="techcraft.model.VideoProgress"/></lhs><lhs name\="techcraft.teacher.model.CodingAssessmentChallenge"><rhs name\="techcraft.teacher.model.CodingAssessmentChallenge"/></lhs><lhs name\="techcraft.teacher.model.Assessment"><rhs name\="techcraft.teacher.model.Assessment"/></lhs><lhs name\="techcraft.model.AssessmentResult"><rhs name\="techcraft.model.AssessmentResult"/></lhs><lhs name\="techcraft.model.Certificate"><rhs name\="techcraft.model.Certificate"/></lhs><lhs name\="techcraft.admin.model.Teacher"><rhs name\="techcraft.admin.model.Teacher"/></lhs></history>
+content_assist_number_of_computers=20
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+org.eclipse.jdt.ui.typefilter.disabled=java.awt.*;java.rmi.*;org.graalvm.*
+org.eclipse.jdt.ui.typefilter.enabled=com.sun.*;io.micrometer.shaded.*;jdk.*;sun.*;java.awt.List
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
